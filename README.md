@@ -4,7 +4,7 @@ A practical evaluation of the structural rounding framework for approximation al
 
 ## Environment Configuration
 
-structural rounding is implemented in Python and C/C++ (using g++17). In addition, it makes use of 
+Structural rounding is implemented in Python and C/C++ (using g++17). In addition, it makes use of 
 ILP solver, IBM CPLEX.
 
 To build and run structural rounding, the ILP solver and the language toolchains for Python and C/C++
@@ -46,8 +46,6 @@ r = smallest nonempty core of graph
 i = graph id number for this set of parameters
 
 If any graphs failed to be generated (i.e. took too long to generate a random set of edges that ensured a valid set of edges between cores) the parameters are noted in failure.txt and the total number of failures is printed to the console once all graphs have been generated 
-
-TODO: add better documentation
 
 ### ILP Solver
 
