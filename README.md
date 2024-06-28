@@ -1,11 +1,13 @@
-# test-rounding
+# structural rounding
+
+A practical evaluation of the structural rounding framework for approximation algorithms. Focused on the Vertex Cover problem and edited to the class of bipartite graphs.
 
 ## Environment Configuration
 
-test-rounding is implemented in Python and C/C++ (using g++17). In addition, it makes use of 
+structural rounding is implemented in Python and C/C++ (using g++17). In addition, it makes use of 
 ILP solver, IBM CPLEX.
 
-To build and run test-rounding, the ILP solver and the language toolchains for Python and C/C++
+To build and run structural rounding, the ILP solver and the language toolchains for Python and C/C++
 must be available. It is known to support the following language and build tool versions.
 
 | Tool | Version |
