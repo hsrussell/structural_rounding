@@ -1,0 +1,19 @@
+# Output files #
+###################
+graph.txt
+failure.txt
+output.txt
+/rounding/generated-graphs
+
+# Compiled source #
+###################
+output
+*.exe
+*.o
+*.pdf
+
+# OS generated files #
+######################
+*.DS_Store
+*.DS_Store?
+*.dSYM
